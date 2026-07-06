@@ -8,8 +8,9 @@ Identificar qué pacientes tienen mayor riesgo de deteriorar clínicamente en la
 primeras 72 horas, y construir un primer modelo de alerta temprana.
 
 ## Estado
-- [ ] Fase 0 — Organización del repo
-- [ ] Fase 1 — Diseccionar el encargo
-- [ ] Fase 2 — Aprender el dominio
-- [ ] Fase 3 — Modelar el dataset (ER)
+- [x] Fase 0 — Organización del repo
+- [x] Fase 1 — Diseccionar el encargo
+- [x] Fase 2 — Aprender el dominio
+- [x] Fase 3 — Modelar el dataset (ER)
+- [x] Fase 3b — Glosario de métricas de negocio
 - [ ] Fase 4 en adelante — pendiente
