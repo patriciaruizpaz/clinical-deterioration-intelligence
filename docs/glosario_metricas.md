@@ -35,3 +35,11 @@ confundirse entre sí: "a nivel hora" (cada fila = una observación horaria) vs.
 "a nivel paciente" (cada fila = un paciente). Ejemplo: la tasa de deterioro dentro
 de 12h y el score de sepsis promedio deben reportarse siempre aclarando en qué
 nivel se calcularon.
+
+## Validación — Tasa de deterioro a 12h (confirmado en Fase 9)
+Resultado real sobre panel_con_target.csv (416.635 filas horarias):
+- No deteriora en las próximas 12h: 94.61%
+- Deteriora en las próximas 12h: 5.39%
+
+Fuente: columna deterioration_next_12h de hospital_deterioration_hourly_panel.csv,
+unida al panel limpio por (patient_id, hour_from_admission).
